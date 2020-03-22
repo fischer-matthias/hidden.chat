@@ -1,8 +1,8 @@
 {
   "name": "hidden.chat",
   "version": "0.0.1",
-  "author": "hidden.chat",
-  "homepage": "hiddenchat.matse.work",
+  "author": "hidden chat",
+  "homepage": "hidden.chat",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -53,5 +53,5 @@
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
   },
-  "description": "Just an encrypted chat."
+  "description": "An Ionic project"
 }
