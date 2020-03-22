@@ -9,8 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./contacts.page.scss'],
 })
 export class ContactsPage implements OnInit {
-  constructor(protected router: Router,
-    public contactsService: ContactsService) { }
+  constructor(protected router: Router, public contactsService: ContactsService) { }
 
   ngOnInit() {
   }
