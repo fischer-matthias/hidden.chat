@@ -1,6 +1,11 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>chat</ion-title>
+    <ion-buttons slot="start">
+      <ion-button (click)="onBack()">
+        <ion-icon name="chevron-back-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{ contact?.displayName }}</ion-title>
   </ion-toolbar>
 </ion-header>
 

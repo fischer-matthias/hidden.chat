@@ -1,4 +1,6 @@
+import { Contact } from './../../models/contact';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-chat',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChatPage implements OnInit {
 
-  constructor() { }
+  contact: Contact;
+
+  constructor(protected router: Router) { }
 
   ngOnInit() {
+  }
+
+  onBack() {
+    this.router.navigate(['/tabs/contacts']);
   }
 
 }

@@ -1,9 +1,15 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>contacts</ion-title>
+    <ion-title>Your contacts</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-list>
+    <ng-container *ngFor="let contact of contacts">
+      <ion-item button (click)="openChat(contact)">
+        <ion-label>{{ contact.displayName }}</ion-label>
+      </ion-item>
+    </ng-container>
+  </ion-list>
 </ion-content>
