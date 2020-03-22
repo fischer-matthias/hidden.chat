@@ -1,12 +1,17 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>Your contacts</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <ng-container *ngFor="let contact of contacts">
+    <ng-container *ngFor="let contact of contactsService.contacts">
       <ion-item button (click)="openChat(contact)">
         <ion-label>{{ contact.displayName }}</ion-label>
       </ion-item>

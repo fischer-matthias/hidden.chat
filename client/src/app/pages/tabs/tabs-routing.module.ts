@@ -13,7 +13,7 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: () =>
-              import('../pages/contacts/contacts.module').then(m => m.ContactsPageModule)
+              import('../contacts/contacts.module').then(m => m.ContactsPageModule)
           }
         ]
       },
@@ -23,7 +23,7 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: () =>
-              import('../pages/settings/settings.module').then(m => m.SettingsPageModule)
+              import('../settings/settings.module').then(m => m.SettingsPageModule)
           }
         ]
       },
@@ -33,7 +33,7 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: () =>
-              import('../pages/chat/chat.module').then(m => m.ChatPageModule)
+              import('../chat/chat.module').then(m => m.ChatPageModule)
           }
         ]
       },
