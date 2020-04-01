@@ -1,5 +1,9 @@
-import { Contact } from 'src/app/models/contact';
+/*
+  ContactsService - Data-Service for the frondend (get, insert, delete contacts)
+*/
+
 import { Injectable } from '@angular/core';
+import { Contact } from 'src/app/models/contact';
 
 @Injectable({
   providedIn: 'root'

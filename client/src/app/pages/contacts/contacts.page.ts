@@ -1,7 +1,11 @@
-import { ContactsService } from './../../services/contacts.service';
+/*
+  ContactsPage - List of contacts
+*/
+
 import { Component, OnInit } from '@angular/core';
-import { Contact } from '../../models/contact';
 import { Router } from '@angular/router';
+import { Contact } from '../../models/contact';
+import { ContactsService } from './../../services/contacts.service';
 
 @Component({
   selector: 'app-contacts',

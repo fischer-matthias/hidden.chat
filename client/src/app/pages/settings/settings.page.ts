@@ -1,4 +1,6 @@
-import { UserService } from './../../services/user.service';
+/*
+  SettingsPage - Set custom settings
+*/
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SettingsPage implements OnInit {
 
-  constructor(protected userService: UserService) { }
+  constructor() { }
 
   ngOnInit() {
   }

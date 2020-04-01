@@ -1,7 +1,10 @@
-import { ContactsService } from './../../services/contacts.service';
-import { Contact } from './../../models/contact';
+/*
+  ChatPage - Displaying messages from and to the user
+*/
 import { Component, OnInit } from '@angular/core';
-import { Router, Params, ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Contact } from './../../models/contact';
+import { ContactsService } from './../../services/contacts.service';
 
 @Component({
   selector: 'app-chat',
