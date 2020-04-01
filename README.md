@@ -1,4 +1,4 @@
-![Node.js CI](https://github.com/fischer-matthias/hidden.chat/workflows/Node.js%20CI/badge.svg)
+[![Build](https://github.com/fischer-matthias/hidden.chat/workflows/Build/badge.svg)](https://github.com/fischer-matthias/hidden.chat/actions?query=workflow%3ABuild)
 # hidden.chat - proof of concept
 hidden.chat is an anonym pgp based chat for android. The server only saves the id, nickname and public key of the user in plain text. Every other information is fully encrypted with pgp.
 
