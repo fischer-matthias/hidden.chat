@@ -2,8 +2,8 @@
 package randomid_test
 
 import (
-	"../../internal/randomid"
 	"testing"
+	"../randomid"
 )
 
 // TestGenerate tests the id generation

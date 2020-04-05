@@ -12,22 +12,6 @@ type Auth struct {
 	Token string
 }
 
-// GenerateUserID generates a new user id
-func GenerateUserID() (id string, err error) {
-	id, err = randomid.Generate()
-
-	if err != nil {
-		return "", err
-	}
-
-	if len(id) > 0 {
-		return id, nil
-	}
-
-	err = errors.New("Couldn't generate user id")
-	return "", err
-}
-
 // GenerateAuthToken generates a sign in token for a specific user
 func GenerateAuthToken(userID string) (auth Auth, err error) {
 	if len(userID) == 0 || userID == "" {
