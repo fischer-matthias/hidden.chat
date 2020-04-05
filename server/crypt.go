@@ -2,6 +2,7 @@ package hiddenchat
 
 import (
 	"io"
+
 	"golang.org/x/crypto/openpgp"
 )
 

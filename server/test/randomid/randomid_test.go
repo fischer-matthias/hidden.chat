@@ -3,7 +3,8 @@ package randomid_test
 
 import (
 	"testing"
-	"../randomid"
+
+	"matse.work/hiddenchat/randomid"
 )
 
 // TestGenerate tests the id generation

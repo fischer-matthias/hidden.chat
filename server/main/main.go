@@ -4,7 +4,8 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"../internal/hiddenchat"
+
+	"matse.work/hiddenchat"
 )
 
 func main() {

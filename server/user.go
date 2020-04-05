@@ -2,7 +2,8 @@ package hiddenchat
 
 import (
 	"errors"
-	"../randomid"
+
+	"matse.work/hiddenchat/randomid"
 )
 
 // GenerateUserID generates a new user id

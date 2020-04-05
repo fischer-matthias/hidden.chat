@@ -3,7 +3,8 @@ package hiddenchat_test
 
 import (
 	"testing"
-	"../hiddenchat"
+
+	"matse.work/hiddenchat"
 )
 
 // TestGenerateUserID tests a new user id generation

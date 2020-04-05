@@ -5,7 +5,8 @@ import (
 	"bytes"
 	"strings"
 	"testing"
-	"../hiddenchat"
+
+	"matse.work/hiddenchat"
 )
 
 // TestCreateKeyPair tests the creation of a new pgp key pair

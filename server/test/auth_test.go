@@ -3,7 +3,8 @@ package hiddenchat_test
 
 import (
 	"testing"
-	"../hiddenchat"
+
+	"matse.work/hiddenchat"
 )
 
 // TestGenerateAuthToken tests a sign in token creation

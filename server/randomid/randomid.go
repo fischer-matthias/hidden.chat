@@ -2,8 +2,9 @@
 package randomid
 
 import (
-	"github.com/segmentio/ksuid"
 	"errors"
+
+	"github.com/segmentio/ksuid"
 )
 
 // Generate creates a random id using ksuid

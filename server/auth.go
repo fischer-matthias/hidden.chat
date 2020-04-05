@@ -3,7 +3,8 @@ package hiddenchat
 
 import (
 	"errors"
-	"../randomid"
+
+	"matse.work/hiddenchat/randomid"
 )
 
 // Auth is an structure for authenticate the user
