@@ -17,10 +17,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Build frontend
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
     - run: cd client && npm install && npm run build
       env:
         CI: true
+    - name: Build backend
+      uses: actions-contrib/go@v0.1.0
+    - run: cd server/test/ && go test && cd ../main/ && go build main.go 
